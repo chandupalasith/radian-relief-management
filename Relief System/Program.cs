@@ -152,7 +152,7 @@ namespace Relief_System
             Application.SetCompatibleTextRenderingDefault(false);
             new Program();
             Application.Run(new Switch());
-            con.Close();
+            con.Close();//close connection
         }
     }
 }
